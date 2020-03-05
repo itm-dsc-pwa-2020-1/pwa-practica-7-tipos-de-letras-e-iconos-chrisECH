@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: roboto_bold;
+    src: url('/css/Roboto-Bold.ttf');
+}
+
+@font-face{
+    font-family: tangerine;
+    src: url('/css/Tangerine_Bold.ttf');
+}
+
+@font-face{
+    font-family: sunday;
+    src: url('/css/SUNDAY.ttf');
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    border-style: solid;
+    background: linear-gradient(rgb(141, 212, 138), white);
+}
+
+.cabecera{
+    margin: 2%;
+    border-style: solid;
+    width: auto;
+    height: 50px;
+    border-radius: 1em;
+    align-items: center;
+    text-shadow: 1em;
+    
+}
+
+.cabecera p{
+    font-family: tangerine;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main{
+    margin: 2%;
+    width: auto;
+    height: auto;
+    align-items: center;
+    
+}
+
+.contenedor > .main > .foto{
+    margin: 2%;
+    width: 30%;
+    height: 500px;
+    border-style: solid;
+    border-radius: 2em;
+    float: right;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2em;
+}
+
+.contenedor > .main > .datos{
+    margin: 2%;
+    border-style: solid;
+    border-radius: 2em;
+    width: 64%;
+    height: auto;
+    text-align: left;
+    
+}
+
+.datos p{
+    margin-left: 5%;
+    font-family: roboto_bold;
+    font-size: 15px;
+}
+
+.datos span{
+    font-size: 30px;
+}
+

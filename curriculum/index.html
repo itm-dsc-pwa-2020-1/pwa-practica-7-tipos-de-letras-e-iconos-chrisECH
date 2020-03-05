@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="spa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mdl/material.min.css" />
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Curriculum</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <p>Curriculum Vitae Christian Eduardo</p>
+        </div>
+        <div class="main">
+            <div class="foto">
+                <img src="/img/pp.jfif" alt="Foto perfil" srcset="">
+            </div>
+            <div class="datos">
+                <p><span>Datos personales</span></p>
+                <p>Mi nombre es Christian Eduardo Camarena Hernandez,
+                    estudiante de Ing. en sistemas en el Tecnologico de Morelia,
+                    cursando actualmente el octavo semestre.<br>
+                    Tengo 22 años. Me consedero una persona dedicada, aprendo
+                    mas en lo practico y visual que solamente con teoria.
+                </p>
+                <br><br>
+                <p class="titulo1"><span>Estudios</span></p>
+                <p class="estudios">
+                    -Secundaria: Esc. Sec. Fed. 4 "J. Guadalupe Saltos"
+                    <br>
+                    -Bachillerato: Escuela Preparatoria Ing.
+                    Pascial Ortiz Rubio (U.M.S.N.H)
+                    <br>
+                    -Licenciatora: Instituto Ttecnologico
+                    de Morelia "Jose Maria Morelos y Pavon"
+                </p>
+                <br><br>
+                <p><span>Experiencia</span></p>
+                <p class="exp">
+                    -He desarrollado software de escritorio para registros
+                    de animales (para la facultad de veterinaria de la UMSHN)
+                    utilizando el lenguaje java. <br>
+                    -Desarrolle un proyecto web para el control de una biblioteca
+                    el cual consistia en el prestamo de libros y las disponibilidad
+                    de los mismos. <br>
+                    -Desarrollo proyectos para practicas en lenguajes como C++, ensamblador 8086,
+                    Java, entre otro. Esto es mas por Hobbie que por laboral.
+                </p>
+
+                <p class="titulo2"><span>Java 60%</span></p>
+                <!-- Simple MDL Progress Bar -->
+                <div id="p1" class="mdl-progress mdl-js-progress" style="margin-left: 5%;"></div>
+                <script>
+                    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function () {
+                        this.MaterialProgress.setProgress(60);
+                    });
+                </script>
+
+                <p class="titulo2"><span>C++ 40%</span></p>
+                <!-- Simple MDL Progress Bar -->
+                <div id="p3" class="mdl-progress mdl-js-progress" style="margin-left: 5%;"></div>
+                <script>
+                    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function () {
+                        this.MaterialProgress.setProgress(40);
+                    });
+                </script>
+
+                <p class="titulo2"><span>Laravel 30%</span></p>
+                <!-- Simple MDL Progress Bar -->
+                <div id="p2" class="mdl-progress mdl-js-progress" style="margin-left: 5%;"></div>
+                <script>
+                    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function () {
+                        this.MaterialProgress.setProgress(30);
+                    });
+                </script>
+            </div>
+        </div>
+        <footer class="mdl-mega-footer">
+            <div class="mdl-mega-footer__middle-section">
+
+                <div class="mdl-mega-footer__drop-down-section">
+                    <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                    <h1 class="mdl-mega-footer__heading">Redes Sociales</h1>
+                    <ul class="mdl-mega-footer__link-list">
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEHklEQVRYR72Xf2hbVRTHv+e9lx+vbaLdUpN0w2ktTiazFJmylc06UMfooCgKRRD/kFDRoTibjHZjna7Fbiq4KtqxfxRkf8jGYEP9a22mq8yBUItCndPp+nONZn0vaZo07125WROTJc176cIuvL/uOef7ueee8+69BJNjwwFmDceV7YyhBaCHAdQufTzC5M2P/UKEs9U257lfD1LCTGgyMnL5o7UitANEaAPgMLJfmlcZwwlNErtDvZVTxXyWBbivm9ljMaWLILwFsAqTwreY0TyD/qEsO3uudtNCoRgFAWo6Ih5R0E8DeHxlwnleFzVdaJ09UjV960wegDsQ2UjQvwawtkzi6TDjDMLOmb6q0ey4OQCuzqhX1LRLBKwps3gGQtOFTdmZyADwPV+IqUEAj5UiXl1J4c5nbD9vvl+wOmXBFo0jMRvVE5NhpvtPxR5V4nmFe9EuO5rTNZEBcAfm3iXQvlLE27fahvfvtK4XCKsL+W1+PzpxNaTnZZOBHZrpu2s/90kB8FaTSL9cSrU/vUEc+fylioZiwMsBADSfFIV63qIpALdfGSCCz+zqrSIWL7/juGYVUbcyAIABAzN9znaq381skQo1BKDKLMBTD0kjX7ws561eZ7g+OqGNXQszjYGR/1S88UaMOZeJq66yO1zk3Tu3gzH6xqw4tzu4y37e12TZlu2j6Zh5pCdi+TfKVpmNRWA7yBOY+xig18w6cbtP2+Sh1gapOdvnhz+14LMD80+UEgdgn5AnoAwCyAlmFOTYi/bgro2WHLEzo4tB35cLJQJgkAOMAXjQSDR7vowAYxxALaUAOUgZAVQOEAFQWSwDJ33y+S11Uk7RGWUsoeHvdV3qvQZ2UQ5wBSjezysBmFbYpcbeyCYDgCvkDSgXGLCl3Bn4/vdk8PnjsaJFScAwefaq/WDs9XID9A/Fv+v9NrG1eAaon9wdSgsJOFPM8NVttuHnGkWWtqlbLdTIVsrpnFiC/fbHP/ps2mbPybh7ZFyrLw7AWsj99nQliRXcUTYqrPR8mbogJsgRV+ow8gTUowDbfScBiOjo1HuON1IAa/zzazVK8m6wmoEoQwYSkiTVjfdUTGQuJN6A0sOAzjsBQEDvVJ+zi2v9fyf0MYunWr0AwKh3b/dP+OO07GhCNyVzAQDc03HjAUEQOIS7WCZuYwtmdF1vun7kbr7dqZF3La/1K+t1wrmsZ1ceywoBJgWG7ZOHnfzwy4yCD5ObmaCvAGoslInSAegnXddeyF75shnICKZqQtkHEC9MKRukBIAkwHqnw85DOEaLhRZj+Dj17gmv0yXpTQJ7JX1smwBQGXBcSGofTX1Q/VexejIESDu7/LMOEbYnQWj+rM3uam2w8FuUa2k+dHpkcaj9xEIIDEMa4oOhwzX8nmE4/gOCQdhHW+DrmQAAAABJRU5ErkJggg=="
+                                alt="Facebook"><a href=""> /Christian Camarena</a></li>
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC00lEQVRYR+2XTUhUURTH//d9jfNR4kSR1VRkkqXYInfBiNAHVNAicSxw0dCmRVCLiohaSG0KpFVFRTAtwjYFMSAGGYY0SholQ+JGRhMdhcZSm3kz7915cf2q9L2ZNw91WniWM/ee8zvn/u+57xAAKA7Etgvg7wCkGsBm9tsKWhTQ2ikVL4/4Hd/IlqdxD8+rXwAUrWBQPdcTlAr7iSfwsxkgvlUOPhdOe0E8gcnRVSi7UX6jDEDLT/azUdcAlrUCLpFAphrUtPlDzQiwyU4wnsgukUPbBFyvsmHXeg4pCnSOqbjWmUSSaqgtEdE6pGJgUp/KEEAgQFetC1dCMt4Oq4Ypndgp4L7XvuT/uKpB4glaBlVcDcmYVvQTMQTY6uQQOuWEkgYaP8p41q9gsQuOAJ/qXHDbiC6gTIG+CYqH4RRahvSTMARg5xmud4EFYRaKUtzuSaL3O10IVlLI4d1Jp2F1GPClDhkvBxTDNRk18KTGjiMe4Z/NfRNpBCMK+n+kIXLAg+ql5Z/fMJXSUN48nVGRhgDrJIIDG3ncrLJhdyFnXtZ/rYxMpeF99csagEMg6DvjAtUAJkgr9iFKUf8mbg2A7XpcY8fRRUeQC0jT5yTu9aasAxQ7CJ4fdoCJzYodC8YRjv0RrZ6PrJ2wcgOPC5VSzpVgt8aXpfymHiPWyZoOFuRUAHb96lrj6BrLnL0pALboRpUN5/ZJMKvFR19TuNWdNAWd9QjmvVS4eTTsEXG6VMzouH1Ehb8tMdNBzZgpgCIbwfkKCf4yCRJv7PZ1RMXFjsTyvIblbg5nyySUu3nsLeIWWrJe+GhcQ2O3jGDE+NEyws5YAdaMfKUiju8QwG5DwVz2rDmxZ7pnnCI4qKBtWAV7eKyYqSOYUSsA1p4lDoglNaSzfyaY4jENYMqbhUVrAP/DYJLn0SzvwykT7iyEchcgXjatWxBzLltGAe39/Hj+G1O6LAg6BDVVAAAAAElFTkSuQmCC"
+                                alt="Twitter"><a href=""> @ChrisECH3</a></li>
+                        <li><img src="data:image/png;base64,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"
+                                alt="Instagram"><a href=""> @christian_ech03</a></li>
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQElEQVRYR+2XzU4TURiGn29+KAJBhbjUpj9uMLrx7w5cudOVrvQevACiQe0VgBhduRExEaoLL0FZWlblTxMwxkJUOkw7c84x01CjRmCmnaQumPX3vueZ+c75zjtCjx/p8focAhz4BQzYW/n8kFKZAUdMJggDx7It11LKUbblRi20lQ60bYda6cB13DA00rDthnd8eXlbQO3X5l8AtULhJIHcxmIMQx44ZeCoQKabfWKgIfAN+IiwjGYR1zwZXVr6FPm2AGq54hU0s8BQN4sl0G5jcW10pfpWvpwYG7IHmmvASAKDNEo3ldeXlc3s6RsG8ywNx6QegtyUWrZQArmTVJxGvRFTkq/Z4rzA1TQMk3oYKEstW1wAzscV27kczuWLNJ6/AK3jyvaqW4gAVoFsXCfn3FmG516iKovUx+8Svov4O33MagSwBRyLa9EGaNc3y2/wJh6i19fjWvxetxUBeMCRuOq/ASKd8X38qcf4k48wOztxraI6LwKIRqUVV/UvgLZWb3zGe1Ci+Wo+rp1KGWAD736J5lw5EUA6LZicxp+a7qgFXW7C13gTpa42YUfHMPxQwRu/R/i++2OYfBBdukBjZjadQfQfjOIeX0Y9v457Hkh6FMl+YHG9FcnaI2s3lN7C4gxIDmOiG3IY6I871vao84HviKyBWUFTwTVP/wil+y0QxfLNYnFQB+6gY/l9EtpOuBvLxZJWLDfatGK5o3RgHBWGur9puUF9pFqtx47lXb5lx/IDf0w6do4pPAT4CWapCdbSfytSAAAAAElFTkSuQmCC"
+                                alt="Youtube"><a href=""> Christian Eduardo Camarena Hernández.</a></li>
+                    </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                    <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                    <ul class="mdl-mega-footer__link-list">
+                        <li><img src="data:image/png;base64,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"
+                                alt="WhatsApp"><a href="#">4435095842</a></li>
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEDUlEQVRYR+2XX2xTdRTHz+m9bTe7yiYlaNliYJkvgNuME8VtIpNMdJMnElNkGjWRSGIWTNBEDVlAWHzQRE1Akzkw+OASFTQGgZiQMTZYVBYY3cboClv/bXTtdjva+/+Y21LSdu3WSc1edt+a3/nzued8z/ndIizyg4ucH5YAohXw2F56FIDZY9y0mfJffW01INL/1Rrh7KkR/qcOVgH5s+IfTrlwcsfWB0ViBwjAqiXVP1v9t6npzVJALMwxRJg/+fM//O+/VWtxCWiaYbAS3bbGbQhwIjEZY1nhK/honx9NpnW5gEBZusEdOoDK2GhpUjyi99Fja9wJAN+nJkKGVfN37e4ylFfU3g+E4nR2znzeWkWCmJ8ah+P5DzICxI31VRv6TG/vKgGE5QsCIQrxHT9e5f88vTHVT1LVSbvL65RU+fS8AJqzrqjotvmTFjcWmCuygSA+YucOtpjJN16Sah+ciVx2+P0lRGRBpE9nAVBzcw+2tZVBKGRJctbpqOCtdzrZqqdqNKZMIPKA/dydr76oJllmE20UVh9x1r3QGzzyjdbS6PRFAby2hiYCPHbPuLU1DAA8/nLCQZcuVqUm0q8vv2La/d5K0OlWJp4RKYFI+3cO8WL3LB9ulbV/5Lm6QkDdI9KB/UzcLzMA4gNRI6/7Ahz+thIEPvY7/pjNwWUftziwqOjJ6Ejdmbkc2r/PqgYCSVAqw0g3azf1cNZirWraWysLA4hGV1zQfmwKhoaSRxIR8m1NnWg0qOGjbbWgqkltCS+3OBxb6lWFYcsS0P8DQMybwG4/D8ePbwRFSeptaosIkcY2PNMVKC17WttrKedpAHa88joRHU3SQLwFqdEF8TocOawHj2d1OhEK5mXu6/UvBhVjXqYFdp8AsawC9HT3wslfa4DuXhmI4FtXfsG3/vEKQDTNMao5AYjFD8300ddfWhVBZIfqtzokk3mW+tOA5BAgJlC788aobzoS2TzHWycepRNh4xsE0J6VBhJCEVEXIjwBgDQ1zXXeGnXVEEHBPCA5AQgA4CAAJe14RVV7h4edRl4QyhemAVt2FVBVJawQ9hkYXEOAD6dLQkTBSX/gkss7rrXEkJ0GsgAQROEm6lingWWez6bXsiyfGxwescqS/Nj8e2AOACI1zPPCX3lGQwnqmLSznwmIgFxe3237xIR/S/zySbuKPbaX6wF0f6SKUBSlUQJ10Ggw1gHAvQskmwokalWSxDPXBh1rgah4NgB8iP3btxse0vMDALBGc1QPHpqKCPw1o9FQyDLs2gUmTG9ONDByyz3OcVxNwmUkM0iV0Xt5rKlhFSPjuwBg4fbunSi0WFaoKuXlJPndIIQgejxet6d5j/aR4mGQOhq6r/Qv/TFZqsCiV+BfcMQojlLBZbwAAAAASUVORK5CYII="
+                                alt="Mail"><a href="">chris.e1297@gmail.com</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
